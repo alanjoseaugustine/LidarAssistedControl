@@ -7,7 +7,7 @@ clc;
 addpath(genpath('..\WetiMatlabFunctions'))
 
 % Parameters (can be adjusted, but will provide different results)
-URef_vector         = 4:2:24;   % [m/s]         range of wind speeds (operation points)
+URef_vector         = 4:2:20;   % [m/s]         range of wind speeds (operation points)
 n_Seed              = 6;        % [-]           number of stochastic turbulence field seeds
 
 % Seed Matrix Definition
